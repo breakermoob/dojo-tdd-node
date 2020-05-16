@@ -18,8 +18,6 @@ class CodeBreaker {
             } else {
                response = response + '_';
             }
-         } else {
-            // response = response + ' ';
          }
       }
       return response;
