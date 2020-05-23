@@ -27,6 +27,7 @@ describe('Testing Existence', () => {
      expect(cb.itExist(8)).toBe(false); //Assert
    });
  });
+ 
 describe('Testing Position', () => {
    test('if value 0 is positioned in 0 back true', () => {
      expect(cb.isPositioned(0,0)).toBe(true); //Assert
@@ -38,6 +39,7 @@ describe('Testing Position', () => {
      expect(cb.isPositioned(8,2)).toBe(false); //Assert
    });
  });
+
 describe('Testing SetSecret', () => {
    test('if change secret value', () => {
       const newSecret = 5678;
