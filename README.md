@@ -2,6 +2,8 @@
 
 Nice proyect with TDD
 
+[![Codeship Status for breakermoob/dojo-tdd-node](https://app.codeship.com/projects/d028f600-7f3c-0138-71e3-068c0ce045b2/status?branch=master)](https://app.codeship.com/projects/397456)
+
 ---
 ## Requirements
 
@@ -47,21 +49,21 @@ If the installation was successful, you should be able to run the following comm
 ## Calculator
 
 ### Add
-   /calculator/add?value1=1&value2=3
+    /calculator/add?value1=1&value2=3
 
 ### Subtract
-   /calculator/sub?value1=1&value2=3
+    /calculator/sub?value1=1&value2=3
 
 ## CodeBreaker
 
 ### isPositioned
-   /codebreaker/isPositioned?value=0&position=0
+    /codebreaker/isPositioned?value=0&position=0
 
 ### itExist
-   /codebreaker/itExist?value=1
+    /codebreaker/itExist?value=1
 
 ### guest
-   /codebreaker/guest?value=0123
+    /codebreaker/guest?value=0123
 
 ### setSecret
-   /codebreaker/setsecret?value=5987
+    /codebreaker/setsecret?value=5987
