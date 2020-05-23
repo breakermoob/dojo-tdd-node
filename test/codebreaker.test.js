@@ -1,4 +1,4 @@
-const CodeBreaker = require('./codebreaker');
+const CodeBreaker = require('../src/codebreaker');
 const cb = new CodeBreaker('0123');
 
 describe('Codebreaker', () => {
