@@ -9,6 +9,10 @@ class CodeBreaker {
       this.secret = value;
    }
 
+   getSecret(){
+      return this.secret;
+   }
+
    guest(value) {
       let response = '';
       for (let i = 0; i < value.length; i++) {

@@ -97,6 +97,18 @@ app.get('/codebreaker/setsecret', async (req, res) => {
       next(error);
    }
 });
+app.get('/codebreaker/getsecret', async (req, res) => {
+   try {
+      const value = req.query.value;
+
+      const secret = await cb.getSecret(value);
+      res.status(200).json({
+         result: secret
+      });
+   } catch (error) {
+      next(error);
+   }
+});
 
 
 
