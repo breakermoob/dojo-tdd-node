@@ -91,8 +91,10 @@ app.get('/codebreaker/setsecret', async (req, res) => {
    try {
       const value = req.query.value;
 
-      await cb.setSecret(value);
-      res.status(200).json();
+      const secret = await cb.setSecret(value);
+      res.status(200).json({
+         result: 'changed'
+      });
    } catch (error) {
       next(error);
    }
