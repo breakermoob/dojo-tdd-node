@@ -141,7 +141,8 @@ describe('Testing CodeBreaker', () => {
          //asset
          expect(response.status).toBe(200);
          expect(response.type).toBe('application/json');
-         expect(response.body.result).toBeUndefined();
+         expect(response.body.result).toBe('changed');
+         // expect(response.body.result).toBeUndefined();
          done();
       });
    });
